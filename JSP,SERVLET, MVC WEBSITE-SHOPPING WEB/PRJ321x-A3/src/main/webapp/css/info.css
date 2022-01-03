@@ -1,0 +1,12 @@
+@charset "ISO-8859-1";
+.title{
+    color: #E66060;
+    font-size: 40px;
+  }
+  .btn-add {
+    width: 150px;
+    height: 80px;
+    border:none;
+    border-radius: 4px;
+    
+  }

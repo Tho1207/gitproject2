@@ -1,0 +1,108 @@
+@charset "ISO-8859-1";
+#body {
+	background-color: #150B4E;
+	
+}
+img {
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 250px;
+}
+button {
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100px;
+	height: 50px;
+	background-color: #C956F6;
+  	border: none;
+  	color: white;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 20px;
+	cursor: pointer;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #2A3B74;
+  overflow-x: hidden;
+  transition: 0.5s;
+  background-image: url("../picture/02.jpg");
+  
+}
+.sidenav a {
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+	color: white;
+}
+
+hr {
+	color: white;
+}
+
+#main {
+  position: relative;
+  transition: margin-left .5s;
+  padding: 16px;
+}
+#myTable {
+	/* position: relative; */
+	transition: margin-left .5s;
+	
+}
+
+.headName {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	color: #EF7834;
+	font-size: 25px;
+}
+.fields {
+	color:white;
+	margin-left: 20px;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.row:hover {
+	background-color: #C956F6;
+}
+
+i {
+	font-size: 25px;
+	color:white;
+	padding-top: 25px;
+	margin-left: 15px;
+	padding-bottom: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+table {
+	position: absolute;
+	top: 39%;
+}
+
+
+#first{
+	background-color: #C956F6;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
