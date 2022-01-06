@@ -1,6 +1,0 @@
-bu | xcb | 3 | 8.0
-ao | fsf | 8 | 9.0
-dsf | gdfg | 9 | 4.0
-cds | gfdg | 7 | 8.0 
-efd | sdfd | 9 | 10.6
-fdsf | sdf | 9 | 2.3
