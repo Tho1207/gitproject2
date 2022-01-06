@@ -37,7 +37,13 @@ public class AddToCartController extends HttpServlet {
 				Cart c = (Cart) session.getAttribute("cart");
 				c.remove(id);
 				session.setAttribute("cart", c);
-			}
+			}else if (action != null && action.equalsIgnoreCase("minus")) {
+				int id = Integer.parseInt(idd);
+				Product p = new ListProductDAO().getProduct("" + id);
+				Cart c = (Cart) session.getAttribute("cart");
+				c.minus(new Product(p.getId(), p.getName(),p.getDescription(),p.getPrice(),p.getSrc(),p.getType(),p.getBrand(),1));
+				session.setAttribute("cart", c);
+			} 
 			response.sendRedirect("cart.jsp");
 		} catch (Exception ex) {
 			response.getWriter().println(ex);

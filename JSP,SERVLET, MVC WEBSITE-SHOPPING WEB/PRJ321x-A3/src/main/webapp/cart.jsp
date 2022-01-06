@@ -42,7 +42,7 @@
                 				<p class="lead fw-normal mb-2">${item.name}</p>
              			 </div>
               			<div class="col-md-3 col-lg-3 col-xl-2 d-flex">
-              					<a href="addToCart?action=delete&id=${item.id}">
+              					<a href="addToCart?action=minus&id=${item.id}">
                						 <button class="btn btn-link px-2"
                   						onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
                   						<i class="fas fa-minus"></i>

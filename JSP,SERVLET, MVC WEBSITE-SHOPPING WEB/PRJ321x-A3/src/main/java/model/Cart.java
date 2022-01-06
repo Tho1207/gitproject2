@@ -17,6 +17,18 @@ public class Cart {
 		}
 		items.add(ci);
 	}
+
+	public void minus(Product ci) {
+		for (Product x : items) {
+			if (ci.getId() == x.getId()) {
+				x.setNumber(x.getNumber()-1);
+				if (x.getNumber()==0) {
+					remove(x.getId());
+				}
+				return;
+			}
+		}
+	}
 	
 	public void remove(int id) {
 		for(Product x:items) {
