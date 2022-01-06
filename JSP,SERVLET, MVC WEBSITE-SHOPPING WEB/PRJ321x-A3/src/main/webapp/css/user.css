@@ -1,0 +1,90 @@
+@charset "ISO-8859-1";
+.searchBtn {
+	background-color: #ff8c00;
+	border: 1px solid #ff8c00;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color:#ff8c00;
+  color: white;
+}
+
+
+.topnav-right {
+  float: right;
+}
+
+/* Body */
+#card-border {
+	border: 1px solid black;
+}
+#card-img {
+	height: 350px;
+	
+}
+#card-border {
+	border: 1px solid black;
+}
+.pagination_rounded,
+.pagination_square {
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: 300px
+}
+
+.pagination_rounded ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.pagination_rounded li:first-child {
+    margin-left: 0px
+}
+
+.pagination_rounded ul li {
+    float: left;
+    margin-left: 20px
+}
+
+.pagination_rounded ul li a:hover {
+    background: #4285f4;
+    color: #fff;
+    border: 1px solid #4285f4
+}
+
+a:link {
+    text-decoration: none
+}
+
+.pagination>li>a, .pagination>li>span { border-radius: 50% !important;margin: 0 5px;}
+
+/* Footer */
+.footercol {
+	background-color: #303030;
+	border-top: 3px solid #ff8c00;
+}
+.footerul {
+	display: flex;
+	list-style: none;
+}

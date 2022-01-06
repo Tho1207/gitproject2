@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+.box {
+			margin-top: 5%;
+		}
+		.borderSpecial {
+			border: 5px solid #DBDADC;
+			background-color: #DBDADC;
+		}
+		.box-2 {
+  			background: #1B0B39;
+  			border: 5px solid #DBDADC;
+			
+		}
+		input[type=email] {
+  			background-color: #DBDADC;
+  			color: white;
+		}
+		input[type=password] {
+  			background-color: #DBDADC;
+  			color: white;
+		}
+		.btnSpecial {
+			width: 120px;
+			
+		}
+		
